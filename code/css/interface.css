@@ -1,0 +1,209 @@
+
+.page-login             { text-align:center; }
+.page-login > .banner   { width:1100px; height:380px; background: url(images/loginpage.png) no-repeat;}
+.page-login > .line     { height:16px; background-color:#ABD62E; border-bottom:1px solid #CCC; margin-bottom:30px;}
+
+.page-login .lo         { width: 600px;margin-left: 250px; margin-bottom:20px;}
+.page-login .lo th      { text-align:center;}
+.page-login .lo td      { width: 600px; padding:0 24px;}
+.page-login .lo td input     { width: 100% !important ;}
+.page-login .lo td button    { float:none; margin-top:20px;}
+.page-login .lo td.rem  { color:#666; text-align:left;}
+.page-login .lo td.rem  { color:#666; text-align:left;}
+
+.page-auth .lo         { width: 300px;margin-bottom:20px;}
+.page-auth .lo td input     { width: 100% !important ;}
+
+
+.filterrow                                      { min-height:80px; border-top:1px dotted #ccc; position:relative; padding:12px 0; cursor:pointer;}
+.filterrow:hover                                { background-color:#F3F3F3; }
+.filterrow > .left                              { position:absolute; min-height:50px; width:100px;left:0px; top:12px;}
+.filterrow > .left > .che                       { height:50px;width:36px;text-align: left;display:inline-block;}
+.filterrow > .left > .logo                      { height:50px;width:50px;text-align: center;display:inline-block;}
+.filterrow > .left > .logo > img                { height:50px;max-width: 50px;text-align: center;}
+.filterrow > .matter                            { margin:0px 0 0 104px;}
+.filterrow > .matter > .title                   { font-size:18px; padding:4px 0; display:inline-block;}
+.filterrow > .matter > .usertype                { font-size:14px; color:#33c;}
+.filterrow > .matter > .descr                   { font-style:italic;margin: 6px 0 10px 0;}
+.filterrow > .matter > .manager                 { margin: 0px 0 10px 0; color:#999;}
+.filterrow > .matter > .reject                  { padding: 0px 0 10px 0; color:#c33;} 
+.filterrow > .matter > .bottom                  { }
+.filterrow > .matter > .bottom > .createdate    { font-style:italic; float:left;color: #999;font-size: 12px;}
+.filterrow > .matter > .bottom > .workerstate   { font-style:italic; float:right; }
+.filterrow > .matter > .bottom > .workerstate > .created   { color:#FF6A00; }
+.filterrow > .matter > .bottom > .workerstate > .published { color:#0026FF; }
+.filterrow > .matter > .bottom > .workerstate > .accepted  { color:#007F0E; }
+.filterrow > .matter > .actions                 { display:none; position:absolute; right:0; top:0; height:36px; width:80px; }
+.filterrow > .matter > .actions > .edit         { float:right; display:inline-block; height: 36px; width: 36px; background:url(images/sprite.png) no-repeat; background-position:-248px -3px;}
+.filterrow > .matter:hover > .actions           { display:block;}
+.filterrow > .matter > .actions > .edit:hover   { background-position:-248px -43px;}
+
+.contactinfo            { position:relative; }
+.contactinfo > .logo    {position:absolute;left:0;top: 10px;text-align: center;height:200px;max-width: 200px;}
+.contactinfo > .logo .holder { position:relative;}
+.contactinfo > .logo .ba  { position:absolute; left:0; bottom:0; height:30px; right:0; background-color:#666; opacity:0.3; }
+.contactinfo > .logo .bu  { position:absolute; left:0; bottom:6px; height:30px; right:0; text-align:center;}
+.contactinfo > .logo .bu > button { float:none;}
+.contactinfo > .matter  { margin-left:230px;}
+.contactinfo > .logo img  {max-width:200px;max-height: 200px;}
+
+
+.contactinfo .state.accept   { background-color:#fff; color:#333; padding:24px 0; font-size:16px;}
+.contactinfo .state.accept > button  { margin-top:-5px}
+
+.contactinfo .state.reject   { background-color:#f66; color:#fff; padding:24px;}
+.contactinfo .state.reject > div  { font-style:italic; padding-top:12px;}
+
+.page-profile .spec                 { margin-bottom:25px;} 
+.page-profile .spec td              { padding-left:12px; width:50%; vertical-align:top;} 
+.page-profile .spec td:first-child  { padding-right:12px;padding-left: 0;} 
+
+.page-profile .body > .search                     { width:402px;}
+
+.page-profile .page                               { }
+
+.page-profile .page > .expand                     { float:right; display: inline-block; margin:8px 20px; border-bottom:1px dotted #666; color: #666; cursor:pointer;}
+.page-profile .page > input                       { float:left; }
+
+.page-profile .page > .column                     { width:50%; display:inline-block;vertical-align: top;}
+.page-profile .page .categ                        { margin:12px 24px 12px 0; width:400px; display:inline-block; vertical-align:top; border: 1px solid transparent; border-radius:4px; }
+.page-profile .page .categ > .title               {font-size: 16px;}
+.page-profile .page .categ > .skills              {padding: 8px 0; }
+.page-profile .page .categ.on                     { border: 1px solid #00873B; padding:6px; margin:6px 18px 6px -6px; background-color:#fff; width:424px; box-shadow: 0px 0px 5px 1px rgba(90,120,90,0.2);}
+.page-profile .page .categ.on > .title > span     { border-bottom: 1px solid #00873B;}
+
+.page-profile .page .categ > .skills > .skil         { padding:8px 4px 8px 18px; border:1px solid transparent; position:relative;}
+.page-profile .page .categ > .skills > .skil > .del  { display:none; cursor:pointer; position:absolute; left:-1px; top:8px; height: 15px; width: 15px; background:url(images/sprite.png) no-repeat; background-position:-156px -9px;}
+.page-profile .page .categ > .skills > .skil > .title       { float:left; max-width:264px; margin-top:-2px;font-size:16px;}
+.page-profile .page .categ > .skills > .skil > .title > span{  background-color:yellow;}
+.page-profile .page .categ > .skills > .skil > .scale       {float: right;width:115px;height:15px;vertical-align: top;top: 9px;margin-left:12px;position:absolute;right:0;}
+.page-profile .page .categ > .skills > .skil > .scale > .l  { display:none; height:14px; width:14px; border:1px solid #BFBFBF; margin:0 0 0 1px; cursor:pointer;}
+.page-profile .page .categ > .skills > .skil > .scale > .l.on  { border:1px solid #009943; background-color:#009943;}
+.page-profile .page .categ > .skills > .skil > .scale > .spec  { display: none; height:15px; width:19px; margin:0px 0 0 1px; cursor:pointer; background:url(images/sprite.png) no-repeat; background-position:-156px -91px;}
+
+.page-profile .page .categ > .skills > .skil > .scale.type2              {margin-right:22px;width: 84px;}
+.page-profile .page .categ > .skills > .skil > .scale.type2 > .d         { text-align:right; position:relative; top:-4px;  cursor: pointer;}
+.page-profile .page .categ > .skills > .skil.setted > .scale.type2 > .d > div      {  }
+.page-profile .page .categ > .skills > .skil > .scale.type2 > .d > div   { display:none; width:40px;border: 1px solid #ccc; color: #999; padding: 1px; text-align: center;  height:18px; font-size:14px; line-height:11px; }
+.page-profile .page .categ > .skills > .skil:hover > .scale.type2 > .d > div  { display:inline-block; }
+.page-profile .page .categ > .skills > .skil.setted > .scale.type2 > .d      { }
+.page-profile .page .categ > .skills > .skil.setted > .scale.type2 > .d > .y { border: 1px solid #393; color: #fff; background-color:#393; display:inline-block; }
+.page-profile .page .categ > .skills > .skil > .scale.type2 > .d > div:hover  { border: 1px solid #999; color: #fff; background-color:#999; }
+
+-.page-profile .page .categ > .skills > .skil.showspec > .scale > .spec  { display:inline-block;background:url(images/sprite.png) no-repeat; background-position:-177px -91px;}
+-.page-profile .page .categ > .skills > .skil.showspec > .scale > .l    {  display:inline-block; }
+
+
+.page-profile .page .categ > .skills > .skil:hover                { background-color:#eee; border-radius:4px;}
+-.page-profile .page .categ.specable > .skills > .skil:hover                { margin-right:-170px; z-index:1000;}
+-.page-profile .page .categ.specable > .skills > .skil:hover .slink         { width:150px;height: 18px;display:inline-block;font-size:14px;text-align:center; margin:0 5px; cursor: pointer;border-bottom:1px dotted #000;}
+
+.page-profile .page .categ > .skills > .skil .slink         { display:none; }
+.page-profile .page .categ > .skills > .skil:hover > .title       { color:#00873D; }
+-.page-profile .page .categ.specable > .skills > .skil:hover > .scale       {width: 285px;}
+.page-profile .page .categ > .skills > .skil.setted:hover > .del         { display:block;}
+.page-profile .page .categ > .skills > .skil.setted > .scale > .l        { display:inline-block; }
+.page-profile .page .categ > .skills > .skil > .scale > .spec.on         { display:inline-block;background-position:-134px -91px;}
+.page-profile .page .categ > .skills > .skil > .scale > .spec.on.main    { background-position:-177px -91px;}
+.page-profile .page .categ > .skills > .skil:hover > .scale > .l     { border:1px solid #BFBFBF; display:inline-block;}
+.page-profile .page .categ > .skills > .skil:hover > .scale > .l.on  { border:1px solid #f26522; background-color:#f26522;}
+.page-profile .page .categ > .skills > .skil:hover > .scale > .spec  { display:inline-block;}
+.page-profile .page .categ > .skills > .skil.activespec              { background-color:#eee;}
+
+.page-profile .userstate        { position:absolute;left: 20px;top: 220px; z-index:15;}
+
+.page-profile .skillview                { }
+.page-profile .skillview > .class       { margin:12px 0;border-bottom: 1px dotted #ccc;padding-bottom: 12px;}
+.page-profile .skillview > .class > .title      { font-size:18px;padding: 8px 0;}
+.page-profile .skillview > .class > .cats       { }
+.page-profile .skillview > .class > .cats > .cat      { margin:8px 0; }
+.page-profile .skillview > .class > .cats > .cat > .skills                      { }
+.page-profile .skillview > .class > .cats > .cat > .skills > .title             {font-size:16px;display:inline-block;font-style;padding-right: 8px;}
+.page-profile .skillview > .class > .cats > .cat > .skills > .skil              { display:inline-block; }
+.page-profile .skillview > .class > .cats > .cat > .skills > .skil > .title     {color:#999;padding: 0 12px 0 0;}
+.page-profile .skillview > .class > .cats > .cat > .skills > .skil.expert > .title     {  }
+
+.page-profile .skilldescr               { color:#999; font-style:italic; margin:8px 0 30px 0; }
+.page-profile .skilldescr > span.spec   {display: inline-block;height:15px;width: 19px;margin:0px 0 0 1px;background:url(images/sprite.png) no-repeat;background-position:-177px -92px;position:relative;top:3px;}
+
+.specdialog                     {min-width: 440px; max-width:600px; border:1px solid #009943; border-radius:4px; padding:20px;top: -8px;position: absolute; background-color:#f5f5f5; box-shadow: 0px 0px 5px 1px rgba(90,120,90,0.6);z-index:10;}
+.specdialog > .head             { text-align:center; }
+.specdialog > .head > b         {display:inline-block;height: 30px;position: relative;width: 44px;background: url(images/sprite.png) no-repeat -151px -123px;top: 9px;}
+.specdialog > .head > span      { display:inline-block; position:relative; top:-2px; padding-left:10px;}
+.specdialog > .closer           { position:absolute; top:4px; right: 4px; height:17px; width:17px; background:url(images/sprite.png) no-repeat -61px -49px; cursor:pointer;}
+.specdialog > .matter           { margin: 8px 0 0 0;font-size: 14px;}
+.specdialog > .nulllevel        { display:none;}
+.specdialog.null > .nulllevel   { display:block; margin: 8px 0; font-style:italic; color:#c33; }
+.specdialog > .matter > table   { width:100%;}
+.specdialog > .matter td        { padding:4px;}
+.specdialog > .matter td > .del { height:21px; width:79px; background:url('images/sprite.png') no-repeat -104px -47px; cursor:pointer; display:none;}
+.specdialog > .matter tr.setted td > .del { display:block;}
+.specdialog > .matter tr.setted .label    { color:#999;}
+.specdialog > .matter tr.setted .radioer > .dot { visibility:hidden;}
+
+.right-helper                       { position:fixed;right: 20px;width: 400px;top: 150px;background-color:#fff;border: 1px solid #ed7238;z-index:1000;border-radius:8px;box-shadow: 0px 0px 5px 5px rgba(120,90,30,0.2);}
+.right-helper.empty                 { border: none; box-shadow:none; right: 280px;}
+.right-helper > .title              { background-color: #ed7238;height:36px;color:#fff;padding-top:8px;cursor: all-scroll;text-align:center;border-top-left-radius :6px;border-top-right-radius :6px;}
+.right-helper > .expand             { position:absolute; top:9px; right:15px; color:#fff; border-bottom:1px dotted #fff; font-size:12px; cursor:pointer;}
+.right-helper > .expand.down        { display:none;}
+.right-helper > a                   { position:absolute; bottom:-90px; left:-7px; }
+
+.right-helper.expanded > .title            { border-radius: 6px;}
+.right-helper.expanded > .expand.up        { display:none;}
+.right-helper.expanded > .expand.down      { display:block;}
+.right-helper.expanded > .matter           { display:none;}
+.right-helper > .matter                     { padding: 10px 0 10px 20px;}
+.right-helper > .matter > ul                { }
+.right-helper > .matter > ul > li           { padding:8px 0; }
+.right-helper > .matter > ul > li > ul      { padding:10px 0 0px 30px ;}
+.right-helper > .matter > ul > li > ul > li { padding:8px 0;  }
+.right-helper > .matter li                  { color:#aaa; cursor:pointer; }
+.right-helper > .matter li > b              {display:inline-block;height: 18px;width: 18px;background:url(images/sprite.png) no-repeat;margin-right:8px;background-position:-53px -125px;position:relative;top:3px;}
+.right-helper > .matter li > i              { font-style:normal;}
+.right-helper > .matter li.vis              { color:#333; }
+.right-helper > .matter li.vis > b          { background-position:-13px -125px; }
+.right-helper > .matter li.man              {  }
+.right-helper > .matter li.set              { color:#393; }
+.right-helper > .matter li.set > b          { background-position:-33px -125px; }
+.right-helper > .matter li > span           { padding-left:10px; font-style:italic; }
+.right-helper > .matter li:hover > i        { border-bottom:1px dotted #999;}
+.right-helper > .matter li.vis:hover > i    { border-bottom:1px dotted #666;}
+.right-helper > .matter li.set:hover > i    { border-bottom:1px dotted #393;}
+
+.spectooltip    {position:absolute;left:0;top:0;z-index: 1000;}
+
+.errorholder    { text-align:right; }
+
+.ispec                              {width:100%;margin: 10px 0 40px 0;}
+.ispec .title                     { font-size:20px; float:left;}
+.ispec .cle                       { font-size:14px; float:right; cursor:pointer;}
+.ispec .cle > b                   { position:relative; top:4px; display:inline-block; width:19px; height:17px; background:url(images/sprite.png) no-repeat; background-position:-27px -153px; margin-right:4px;}
+.ispec .cle:hover                 { color:#009B46;}
+.ispec .cle:hover > b             { background-position:-3px -153px; }
+.ispec table                      { margin-top:8px; width:100%;}
+.ispec table td                   { border:1px solid #d9d9d9; padding:4px 6px; color:#666; text-align:center;width:150px;}
+.ispec table td .radioer          { width:30px; display:inline-block;}
+.ispec table td:first-child       { text-align:left; width:auto;}
+.ispec table tbody td             { font-size: 16px;color:#333;}
+
+.ispec div.nospecwarn                { background-color:#ED1B24; color:#fff; height:50px; padding:15px 0 0 50px; position:relative; margin-top:24px; }
+.ispec div.nospecwarn > .asticon     { position:absolute; left:12px; top: 12px; height:28px; width:28px; background:url(images/sprite.png) no-repeat 0 -172px; }
+
+.comptitle          { }
+.comptitle > span   { font-size:12px; color:#999; }
+
+.logmessages        { }
+.logmessages table       { width:100%; margin:12px 0;}
+.logmessages table td    { padding:2px; font-size:12px;}
+.logmessages table td.time   { width:55px;}
+.logmessages table td.logo   { width:20px;}
+.logmessages table td.user   { width:120px;}
+.logmessages table td.user > a  { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; width:120px; display:block;}
+.logmessages table td.func   { width:200px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display:block;}
+.logmessages table td.matter { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+
+.sqlresult              { width:100%; overflow:auto; margin-bottom:24px; max-height: 300px;}
+.sqlresult  table       { }
+.sqlresult  table th    { border:1px solid #666; padding:1px; background-color: #AAA;}
+.sqlresult  table td    { border:1px solid #666; padding:1px;}

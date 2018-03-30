@@ -1,0 +1,16 @@
+.hellish.log            { font-family: "Segoe UI",  sans-serif; }
+.hellish.log table      { border-collapse: collapse; width:100%;}
+.hellish.log td         { font-size:12px; border:1px solid #ccc; padding:4px 2px;}
+.hellish.log td.t       { width:50px;}
+.hellish.log td.l       { width:60px;}
+.hellish.log td.f       { width:200px;}
+.hellish.log td.m       { }
+.hellish.log pre        { margin: 0; }
+
+.hellish.log tr.l1 > td   { color:#FF006E; }
+.hellish.log tr.l2 > td   { color:#C60000; }
+.hellish.log tr.l3 > td   { color:#C4A300; }
+.hellish.log tr.l4 > td   { color:#0026FF; }
+.hellish.log tr.l5 > td   { color:#007F0E; }
+
+.hellish.log td .dump   { color:#999;}

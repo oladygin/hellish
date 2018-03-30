@@ -1,0 +1,159 @@
+/*
+    Third party components styles
+*/
+
+
+/* Chosen */
+.chosen-container >.chosen-choices { border: 1px solid #CCC; border-radius: 4px; background-image:none; margin:0; }
+.chosen-container >.chosen-choices > .search-choice { filter:initial; }
+.chosen-container-active .chosen-choices { box-shadow:none; border: 1px solid #999; }
+.chosen-container .chosen-drop           { border: 1px solid #999; border-top:0;}
+.chosen-container.chosen-with-drop > .chosen-choices { border-bottom-left-radius:0; border-bottom-right-radius:0; }
+
+.chosen-container > .chosen-choices > li.search-field {
+    color: #D4D4D4;
+    margin: 4px 0 3px;
+    font-size: 12px;
+}
+
+.chosen-container .chosen-choices li.search-choice { margin: 3px 0 3px 3px; }
+
+.chosen-container .chosen-choices li.search-choice .search-choice-close {    background: url('images/chosen-sprite-new.png') -40px 0 no-repeat; top:5px; right:5px; }
+.chosen-container .chosen-choices li.search-choice .search-choice-close:hover { background-position: -40px -12px; }
+
+.chosen-container .chosen-choices li.search-field input[type="text"] { height:auto; padding: 0 8px; color:#999; font-style: italic;}
+
+.chosen-container > .chosen-choices > li.search-choice { font-family: "Segoe UI"; border: 0; font-size: 13px; color: #666; padding: 4px 26px 5px 6px; border-radius: 4px; background-color: #DEFFE2; background-image: none; }
+.chosen-container > .chosen-choices > li.search-choice.pregnant { background-color: #FFBDBE; }
+
+.chosen-container.multiassingle > .chosen-choices > .search-choice {
+    background: #fff;
+    -moz-box-shadow   : none;
+    -webkit-box-shadow: none;
+    box-shadow        : none;
+    padding-right: 0;
+}
+
+.chosen-container .chosen-results li em {
+  background: #d0f6cf;
+  text-decoration: none;
+}
+
+.chosen-container.multiassingle > .chosen-choices > li.search-choice .search-choice-close {
+    display: none;
+}
+
+.chosen-container > .chosen-choices > .search-choice.extra-conditional {
+    background: #FFD4D7;
+}
+
+.chosen-container.chosen-container-multi > .chosen-choices {
+    background: url(images/chosen-dropdown-arrows-arrow-gray.png) no-repeat right 10px top 9px !important;
+    background-color: #fff !important;
+}
+
+
+.chosen-container.chosen-container-multi:not(.chosen-disabled):hover > .chosen-choices {
+    background: url(images/chosen-dropdown-arrows-arrow-green.png) no-repeat right 10px top 9px !important;
+    cursor: pointer;
+    background-color: #fff !important;
+}
+
+.chosen-container.chosen-container-single {
+    background: url(images/chosen-dropdown-arrows-arrow-gray.png) no-repeat right 10px top 10px !important;
+    background-color: #fff !important;
+    border-radius: 6px;
+}
+
+.chosen-container.chosen-container-single:not(.chosen-disabled):hover {
+    background: url(images/chosen-dropdown-arrows-arrow-green.png) no-repeat right 10px top 10px !important;
+    cursor: pointer;
+    background-color: #fff !important;
+}
+
+
+.chosen-container-active.chosen-with-drop .chosen-single {
+  border: 1px solid #999;
+  background: transparent;
+}
+
+.chosen-container > .chosen-choices { background-position: 490px -43px;  padding-right:40px; padding-left: 5px;}
+.chosen-container-active > .chosen-choices {/* background: url('images/chosen-sprite-newa.png') no-repeat right top; */background-position: 565px -43px;padding-right:40px;}
+
+.chosen-container > .chosen-single {
+    filter: initial;
+    /*background: url('images/chosen-sprite-new.png') no-repeat right top;*/
+    /*background-position: 416px -45px;*/
+    padding-right: 40px;
+    box-shadow: none;
+    border: 1px solid #DDE2E2;
+    margin-top: 0;
+    height: 30px;
+    /*background-image: none;*/
+    background: transparent;
+   
+}
+.chosen-container-active > .chosen-single {/* background: url('images/chosen-sprite-newa.png') no-repeat right top; */background-position: 416px -45px;border: 1px solid #999;}
+.chosen-container > .chosen-single > span {
+    color: #999999;
+    margin: 0px 12px 3px 6px;
+    font-size: 14px;
+    display: inline-block;
+    float: left;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.chosen-container.withellipsis > .chosen-single > span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 91%;
+}
+
+.chosen-container > .chosen-single.chosen-default > span {
+    color: #999;
+    font-style: italic;
+    font-size: 14px;
+}
+.chosen-container > .chosen-single > div { width:36px;}
+.chosen-container > .chosen-single > div > b { display:none;}
+
+.chosen-container > .chosen-single > .search-choice-close {
+    background: url('images/chosen-sprite-new.png') no-repeat left top;
+    background-position: -40px 0;
+    border: 0;
+    float: left;
+    margin-top: 6px;
+    display: inline-block;
+    position: relative;
+    right: 0;
+    top: 0;
+}
+
+.chosen-container-multi .chosen-choices li.search-field input[type="text"] {
+    font-family: 'Segoe UI';
+    font-size: 14px;
+}
+
+.chosen-container > .chosen-single > .search-choice-close:hover { background-position:-40px -12px; }
+
+.chosen-container-single.chosen-disabled .chosen-single abbr:hover {
+  background-position: -40px 0;
+}
+
+.userholderlist .chosen-container > .chosen-single { border: none; margin-top: 0;}
+
+.chosen-container .chosen-results li.highlighted {
+    background: #00cb59;
+}
+
+/* tip-yellowsimple */
+.tip-yellowsimple .tip-inner img { padding: 0 15px 0 0; margin: -3px 0 0 0; }
+.tip-yellowsimple .tip-inner img.single { padding: 0; margin: 0; }
+
+.tip-yellowsimple .tip-inner h5 { color: #009943; font-size: 14px; padding: 0 0 10px 0; line-height: 10px; text-align: left; margin: 0; }
+.tip-yellowsimple .tip-inner div { }
+.tip-yellowsimple .tip-inner div > div { text-align: left; display: block; }
+.tip-yellowsimple .tip-inner table { padding: 0; margin: 0; max-width: 270px; border-collapse: collapse; }
+.tip-yellowsimple .tip-inner table td { vertical-align: top; padding: 0; line-height: 15px; }
+.tip-yellowsimple .tip-inner span.tooltip-text { padding: 0;  margin: 0; max-width: 270px; line-height: 15px; }
+.tip-yellowsimple .tip-inner li { padding:4px 0; margin-left:12px; list-style: disk outside; }
